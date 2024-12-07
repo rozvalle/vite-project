@@ -1,15 +1,13 @@
 import React from 'react'
 import Sidebar from './Sidebar'
-import TextField from '@mui/material/TextField'
-import { Button } from '@mui/material'
+import './Home.css'
 
 function Home() {
   return (
     <div class="main">
       <Sidebar />
-      <div class="title">
-        Home
-        
+      <div class="welcometitle">
+        <h1>Welcome To Saint Mary's University</h1>
       </div>
     </div>
   )

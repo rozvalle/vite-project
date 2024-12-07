@@ -1,26 +1,28 @@
 import React from 'react'
 import "./Sidebar.css"
 import { Link } from "react-router-dom";
+import HomeIcon from '@mui/icons-material/Home';
+import StudentIcon from '@mui/icons-material/School';
+import SubjectIcon from '@mui/icons-material/LibraryBooks';
+import smulogo from '/src/assets/my-image.png'
 
 function Sidebar() {
   return (
     <div class="navigation">
     <div class="logo">
-    <Link to="/"><img src="\src\assets\my-image.png"></img></Link> <br />
+    <Link to="/"><img src={ smulogo }></img></Link> <br />
     </div>
     <div class="items">
       <div class="item">
-        <img src="\src\assets\home1.png"></img>
+        <HomeIcon color="inherit"  fontSize='large' className='SidebarIcons' />
         <h2><Link to="/">Home</Link></h2>       
       </div>
-      <hr />
       <div class="item">
-        <img src="\src\assets\stuents.png"></img>
+        <StudentIcon color="inherit" fontSize='large' className='SidebarIcons' />
         <h2><Link to="/students">Students</Link></h2>     
       </div>
-      <hr />
       <div class="item">
-        <img src="\src\assets\bookwhite.png"></img>
+        <SubjectIcon color="inherit" fontSize='large' className='SidebarIcons' />
         <h2><Link to="/subjects">Subjects</Link></h2>    
       </div>  
     </div>     

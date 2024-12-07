@@ -5,10 +5,10 @@
   
   a {
     text-decoration: none;
-    font-weight: 500;
     font-size: 18px;
     color: white;
     font-family: "Poppins";
+    font-weight: 400;
     margin: 0;
   }
   
@@ -21,7 +21,7 @@
   
   .items {
     height: 100vh;
-    margin-top: 50px;
+    margin-top: 10px;
     align-items: center; 
   }
   
@@ -41,9 +41,7 @@
   .item {
     display: flex;
     align-items: center;
-    margin-left: 30px;
-    margin-top: -10px;
-    margin-bottom: -10px;
+    margin-left: 20px;
   }
   
   .logo {
@@ -51,25 +49,46 @@
     justify-content: center;
     width: 100%;
     padding-top: 20px;
+    transition-duration: .2s;
+  }
+
+  .logo :hover {
+    width: 200px;
+    transform: scale(1.05);
   }
   
   .logo img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    transition-duration: .2s;
   }
   
   h2 {
-    padding-left: 20px;
+    margin: 10px 0px 10px 20px;
   }
   
   .item {
     transition-duration: .2s;
+    display: flex;
   }
   
   hr {
     margin: auto;
-    background-color: black;
-    border-color: #ffffff;
+    background-color: #050530;
+    border-color: #050530;
     width: 90%;
   }
 
+  .title {
+    text-align: left;
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Helvetica';
+  }
+
+  .SidebarIcons {
+    color: #ffffff;
+  }
+  
