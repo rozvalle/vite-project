@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Modal, Box, Button, TextField, Typography } from "@mui/material";
+import { Modal, Box, Button, TextField } from "@mui/material";
 
 export default function AddStudentModal() {
   const [open, setOpen] = useState(false);
@@ -58,7 +58,7 @@ export default function AddStudentModal() {
                 color: "white",
                 fontFamily: "Poppins",
                 width: '150px',
-                marginRight: "10px", // Adds spacing between buttons
+                marginRight: "10px",
                 }}
                 onClick={handleClose}
             >
@@ -78,8 +78,7 @@ export default function AddStudentModal() {
             >
                 Cancel
             </Button>
-        </div>
-         
+        </div>    
         </Box>
       </Modal>
     </div>
