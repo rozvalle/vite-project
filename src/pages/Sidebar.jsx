@@ -14,15 +14,15 @@ function Sidebar() {
     </div>
     <div class="items">
       <div class="item">
-        <HomeIcon color="inherit"  fontSize='large' className='SidebarIcons' />
+        <HomeIcon color="inherit"  fontSize='medium' className='SidebarIcons' />
         <h2><Link to="/">Home</Link></h2>       
       </div>
       <div class="item">
-        <StudentIcon color="inherit" fontSize='large' className='SidebarIcons' />
+        <StudentIcon color="inherit" fontSize='medium' className='SidebarIcons' />
         <h2><Link to="/students">Students</Link></h2>     
       </div>
       <div class="item">
-        <SubjectIcon color="inherit" fontSize='large' className='SidebarIcons' />
+        <SubjectIcon color="inherit" fontSize='medium' className='SidebarIcons' />
         <h2><Link to="/subjects">Subjects</Link></h2>    
       </div>  
     </div>     

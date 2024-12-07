@@ -1,0 +1,5 @@
+.modalbox {
+    display: flex; /* Makes children align horizontally */
+    justify-content: space-between; /* Adds space between buttons */
+  }
+  
