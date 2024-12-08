@@ -52,7 +52,8 @@
   }
   
   .SidebarIcons, h2 {
-    transform: none; /* Prevent scaling of individual children */
+    transform: none;
+    padding-bottom: 4px;
   }
   
   .logo {
@@ -102,4 +103,9 @@
   
   .item h2 {
     padding-bottom: 3px;
+  }
+
+  .item p {
+    margin: 7px 0px 7px 20px;
+    padding-top: 2px;
   }

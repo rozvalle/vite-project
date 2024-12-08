@@ -14,18 +14,24 @@ function Sidebar() {
     </div>
     <hr />
     <div class="items">
-      <div class="item">
-        <HomeIcon color="inherit"  fontSize='medium' className='SidebarIcons' />
-        <h2><Link to="/">Home</Link></h2>       
-      </div>
-      <div class="item">
-        <StudentIcon color="inherit" fontSize='medium' className='SidebarIcons' />
-        <h2><Link to="/students">Students</Link></h2>     
-      </div>
-      <div class="item">
-        <SubjectIcon color="inherit" fontSize='medium' className='SidebarIcons' />
-        <h2><Link to="/subjects">Subjects</Link></h2>    
-      </div>  
+      <Link to="/">
+        <div class="item">
+          <HomeIcon color="inherit" fontSize='medium' className='SidebarIcons' />
+          <p>Home</p>    
+        </div>
+      </Link>
+      <Link to="/students">
+        <div class="item">
+          <StudentIcon color="inherit" fontSize='medium' className='SidebarIcons' />
+          <p>Students</p>    
+        </div>
+      </Link>
+      <Link to="/subjects">
+        <div class="item">
+          <SubjectIcon color="inherit" fontSize='medium' className='SidebarIcons' />
+          <p>Subjects</p>    
+        </div>
+      </Link>
     </div>     
   </div>
   )

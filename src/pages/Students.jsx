@@ -1,11 +1,9 @@
 import React from 'react'
 import './Students.css'
 import Sidebar from './Sidebar'
-import TextField from '@mui/material/TextField'
-import { Button } from '@mui/material'
 import { DataGrid } from '@mui/x-data-grid';
 import Paper from '@mui/material/Paper';
-import AddStudentModal from './modaltest'
+import StudentModal from './StudentModal'
 
 const columns = [
   { field: 'id', headerName: 'ID Number', width: 130 },
@@ -49,21 +47,8 @@ function Students() {
     <div className="main">
       <Sidebar />
       <div class="studenttitle">
-        <h1>ADD STUDENT</h1>
-        <TextField label="ID Number" margin='dense' /> <br />
-        <TextField label="First Name" margin='dense'/> <br />
-        <TextField label="Last Name"  margin='dense' /> <br />
-        <TextField label="Middle Name"  margin='dense' /><br />
-        <TextField label="Course" margin='dense'  /><br />
-        <TextField label="Year" margin='dense' /> <br /><br />
-        
-        <Button variant="contained" size="large"
-        sx={{ backgroundColor: '#292974', 
-          color: 'white',  
-          fontFamily: 'Poppins' }}>
-            ADD STUDENT
-        </Button> <br /><br />
-        <AddStudentModal /><br />
+        <h1>STUDENT TABLE</h1> 
+        <StudentModal />
         <DataTable />
       </div>
     </div>

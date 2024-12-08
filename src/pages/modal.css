@@ -1,5 +1,10 @@
-.modalbox {
-    display: flex; /* Makes children align horizontally */
-    justify-content: space-between; /* Adds space between buttons */
-  }
-  
+h2 {
+  margin: 0;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.student_txt {
+  display:block;
+}
