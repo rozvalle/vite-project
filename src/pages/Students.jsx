@@ -24,19 +24,60 @@ const columns = [
 ];
 
 const rows = [
-  { id: 39574220, lastName: 'Valeros', firstName: 'Francis Elmo', MI: 'C.', course:'BSIT', year: '3' },
+  {
+    id: 39574220,
+    lastName: 'Valeros',
+    firstName: 'Francis Elmo',
+    MI: 'C.',
+    course: 'BSIT',
+    year: '3',
+  },
+  {
+    id: 1,
+    lastName: 'Verstappen',
+    firstName: 'Max',
+    MI: 'E.',
+    course: 'BSPolSci',
+    year: '2',
+  },
+  {
+    id: 16,
+    lastName: 'Leclerc',
+    firstName: 'Charles',
+    MI: 'P.',
+    course: 'BSN',
+    year: '1',
+  },
+  {
+    id: 55,
+    lastName: 'Sainz',
+    firstName: 'Carlos',
+    MI: 'S.',
+    course: 'BSCE',
+    year: '4',
+  },
+  {
+    id: 14,
+    lastName: 'Alonso',
+    firstName: 'Fernando',
+    MI: 'A.',
+    course: 'BSHM',
+    year: '3',
+  },
 ];
 
 function DataTable() {
   return (
-    <Paper sx={{ height: 350, width: '100%' }}>
+    <Paper sx={{ height: 369, width: '100%' }}>
       <DataGrid
         rows={rows}
         columns={columns}
         pageSize={[5]}
         pageSizeOptions={[5, 10]}
         pagination
-        sx={{ border: 0 }}
+        sx={{ 
+          border: 0,
+         }}
       />
     </Paper>
   );

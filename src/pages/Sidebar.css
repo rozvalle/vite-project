@@ -11,22 +11,19 @@
     font-weight: 400;
     margin: 0;
   }
-  
+    
   .navigation {
     background-color: #292974;
     width: 300px;
     height: 100%;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   
   .items {
     height: 100vh;
     margin-top: 20px;
     align-items: center; 
-  }
-
-  .items :hover {
-    color: white;
   }
   
   .items img {
@@ -39,19 +36,20 @@
     padding-left: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    transition: transform 0.2s ease; /* Smooth transformation effect */
+    transition: transform 0.2s ease;
   }
   
   .item:hover {
     background-color: #443f8e;
     border-radius: 5px;
+    color: white;
   }
 
   .item:active {
     transform: scale(1);
   }
   
-  .SidebarIcons, h2 {
+  .SidebarIcons {
     transform: none;
     padding-bottom: 4px;
   }
@@ -72,10 +70,6 @@
   .logo img {
     width: 175px;
     transition-duration: .2s;
-  }
-  
-  h2 {
-    margin: 2px 0px 2px 20px;
   }
   
   hr {
@@ -101,10 +95,6 @@
     vertical-align: middle;
   }
   
-  .item h2 {
-    padding-bottom: 3px;
-  }
-
   .item p {
     margin: 7px 0px 7px 20px;
     padding-top: 2px;

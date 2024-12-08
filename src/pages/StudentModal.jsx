@@ -1,7 +1,6 @@
 import { Modal, Box, Button, TextField } from '@mui/material';
 import React, { useState } from 'react';
-import './modal.css'
-
+import './StudentModal.css'
 
 const style = {
   position: 'absolute',

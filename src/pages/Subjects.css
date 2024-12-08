@@ -2,17 +2,26 @@
     text-align: left;
 }
 
-.title h1 {
+.subjecttitle h1 {
     font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 40px;
-    line-height: .5;
-    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+.subjecttitle {
+    text-align: left;
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Helvetica';
 }
 
 .myButton {
     background-color: red;
-  color: white;
+    color: white;
 }
 
 .studenttable {
