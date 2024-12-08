@@ -23,16 +23,10 @@
     height: 100vh;
     margin-top: 20px;
     align-items: center; 
-    margin-left: 20px;
   }
-  
+
   .items :hover {
     color: white;
-  }
-  
-  .items :active {
-    transform: scale(1);
-    border: none;
   }
   
   .items img {
@@ -42,8 +36,23 @@
   .item {
     display: flex;
     align-items: center;
-    margin-left: 20px;
-    transition-duration: .2s;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform 0.2s ease; /* Smooth transformation effect */
+  }
+  
+  .item:hover {
+    background-color: #443f8e;
+    border-radius: 5px;
+  }
+
+  .item:active {
+    transform: scale(1);
+  }
+  
+  .SidebarIcons, h2 {
+    transform: none; /* Prevent scaling of individual children */
   }
   
   .logo {
@@ -70,7 +79,7 @@
   
   hr {
     margin: auto;
-    border: 2px solid white;
+    border: 1px solid #443f8e;
     width: 90%;
     border-radius: 2px;
   }
@@ -91,3 +100,6 @@
     vertical-align: middle;
   }
   
+  .item h2 {
+    padding-bottom: 3px;
+  }

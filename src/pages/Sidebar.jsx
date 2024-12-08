@@ -12,6 +12,7 @@ function Sidebar() {
     <div class="logo">
     <Link to="/"><img src={ smulogo }></img></Link> <br />
     </div>
+    <hr />
     <div class="items">
       <div class="item">
         <HomeIcon color="inherit"  fontSize='medium' className='SidebarIcons' />

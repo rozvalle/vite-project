@@ -53,12 +53,14 @@ export default function AddStudentModal() {
           <div className="modalbox"> 
             <Button
                 variant="contained"
+                size="large"
                 sx={{
                 backgroundColor: "#292974",
                 color: "white",
                 fontFamily: "Poppins",
                 width: '150px',
                 marginRight: "10px",
+                marginTop: '10px',
                 }}
                 onClick={handleClose}
             >
@@ -67,12 +69,14 @@ export default function AddStudentModal() {
 
             <Button
                 variant="contained"
+                size="large"
                 sx={{
                 backgroundColor: "#292974",
                 color: "white",
                 fontFamily: "Poppins",
                 width: '150px',
                 alignItems: 'right',
+                marginTop: '10px',
                 }}
                 onClick={handleClose}
             >
