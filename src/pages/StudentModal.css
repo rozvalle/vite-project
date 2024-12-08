@@ -8,3 +8,8 @@ h2 {
 .student_txt {
   display:block;
 }
+
+.modalbox {
+  display: flex;
+  justify-content: space-between;
+}

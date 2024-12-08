@@ -40,7 +40,7 @@ export default function StudentModal() {
         >
 
         <Box sx={{ ...style, 
-          width: 300,
+          width: 350,
           borderRadius:'10px', 
         }}>
             <h2>Add Student</h2>
@@ -62,7 +62,7 @@ export default function StudentModal() {
                 sx= {{
                   backgroundColor:'#292974',
                   fontFamily:'Poppins',
-                  marginBottom: '10px'
+                  marginRight:'10px'
                 }}
               >
                 Add Student
@@ -76,6 +76,7 @@ export default function StudentModal() {
                 sx= {{
                   backgroundColor:'#292974',
                   fontFamily:'Poppins',
+
                 }}
               >
                 Cancel
