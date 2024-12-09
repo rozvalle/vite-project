@@ -5,6 +5,7 @@ import { Button } from '@mui/material'
 import './Subjects.css'
 import { DataGrid } from '@mui/x-data-grid';
 import Paper from '@mui/material/Paper';
+import { SubjectModal } from './StudentModal'
 
 const columns = [
   { field: 'code', headerName: 'Class Code', width: 100 },
@@ -42,24 +43,13 @@ function DataTable() {
 function Subjects() {
   return (
     <div className="main">
-    <Sidebar />
+      <Sidebar />
 
-    <div className="subjecttitle">
-      <h1>ADD SUBJECT</h1>
-      <TextField label="Class Code" margin='dense'  /> <br />
-      <TextField label="Course Number" margin='dense'/> <br />
-      <TextField label="Subject Description"  margin='dense' multiline sx={{ width:'225px'}}/> <br />
-      <TextField label="Units"  margin='dense' /><br />
-      <TextField label="Schedule" margin='dense'  /><br /><br />
-      
-      <Button variant="contained" size="large" 
-        sx={{ backgroundColor: '#292974', 
-          color: 'white',  
-          fontFamily: 'Poppins' }}>
-            ADD SUBJECT
-      </Button><br /><br />
-      <DataTable />
-    </div>
+      <div className="subjecttitle">
+        <h1>SUBJECT TABLE</h1>
+        <SubjectModal />
+        <DataTable />
+      </div>
   </div>
   )
 }
