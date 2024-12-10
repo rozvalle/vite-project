@@ -7,8 +7,8 @@ import StudentModal from './StudentModal'
 
 const columns = [
   { field: 'id', headerName: 'ID Number', width: 130 },
-  { field: 'firstName', headerName: 'First Name', width: 130 },
   { field: 'lastName', headerName: 'Last Name', width: 130 },
+  { field: 'firstName', headerName: 'First Name', width: 130 },
   { field: 'MI', headerName: 'MI', width: 20 },
   
   {

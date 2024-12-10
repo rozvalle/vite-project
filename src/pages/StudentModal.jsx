@@ -108,7 +108,7 @@ export function SubjectModal() {
           marginBottom:'20px'
         }}
         >
-          Add Student
+          Add Subject
         </Button>
 
         <Modal

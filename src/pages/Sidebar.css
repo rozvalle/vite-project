@@ -72,7 +72,7 @@
     transition-duration: .2s;
   }
   
-  hr {
+  .navigation hr {
     margin: auto;
     border: 1px solid #443f8e;
     width: 90%;
