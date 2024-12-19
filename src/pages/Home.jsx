@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import './Home.css'
+import banner from '/src/assets/banner.jpg'
 
 function Home() {
   return (
