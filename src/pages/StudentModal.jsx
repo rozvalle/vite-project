@@ -1,6 +1,7 @@
 import { Modal, Box, Button, TextField } from '@mui/material';
 import React, { useState } from 'react';
 import './StudentModal.css'
+import AddIcon from '@mui/icons-material/Add';
 
 const style = {
   position: 'absolute',
@@ -31,6 +32,8 @@ export default function StudentModal() {
           marginBottom:'20px'
         }}
         >
+          <AddIcon />
+          &nbsp;
           Add Student
         </Button>
 
@@ -108,6 +111,8 @@ export function SubjectModal() {
           marginBottom:'20px'
         }}
         >
+          <AddIcon />
+          &nbsp;
           Add Subject
         </Button>
 
@@ -164,4 +169,60 @@ export function SubjectModal() {
     </div>
   )
 }
+
+export function LogoutModal() {
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
+  return (
+    <div>
+        <Modal
+        open={open}
+        onClose={handleClose}
+        >
+
+        <Box sx={{ ...style, 
+          width: 350,
+          borderRadius:'10px', 
+        }}>
+            <h3>Are you sure you want to log out?</h3>
+            <div className='modalbox'>
+              <Button 
+                href='/login'
+                variant='contained'
+                size='large'
+                fullWidth
+                sx= {{
+                  backgroundColor:'#292974',
+                  fontFamily:'Poppins',
+                  marginRight:'10px'
+                }}
+              >
+                Exit
+              </Button>
+              <br />
+              <Button 
+                onClick={handleClose}
+                variant='contained'
+                size='large'
+                fullWidth
+                sx= {{
+                  backgroundColor:'#292974',
+                  fontFamily:'Poppins',
+
+                }}
+              >
+                Cancel
+              </Button>
+  
+            </div>
+        </Box>
+        </Modal>
+    </div>
+  )
+}
+
+
 

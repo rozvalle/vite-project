@@ -13,12 +13,16 @@
     margin: 0;
   }
     
+  a:hover {
+    color: white;
+  }
+
   .navigation {
     background-color: #292974;
     width: 300px;
     height: 100%;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    /*border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; */
   }
   
   .items {
@@ -63,8 +67,9 @@
     margin-bottom: 20px;
   }
 
-  .logo :hover {
+  .logo img:hover {
     transform: scale(1.05);
+
   }
   
   .logo img {
