@@ -6,16 +6,14 @@ import { TextField, Button } from '@mui/material'
 function Login() {
   return (
     <div className='loginmain'>
-      <div className='loginlogo'>
+      <div className='loginbox'>
+        <div className='loginlogo'>
         <img src={ smulogo } alt="" />
         <h1>STUDENT INFORMATION SYSTEM</h1>
         <TextField label="Username" variant='outlined' 
         sx={{ 
             width:'300px',
             '& .MuiOutlinedInput-root': {
-                '& fieldset': {
-                    borderColor: '#292974', // Default border color
-                    },
                     '&:hover fieldset': {
                         borderColor: '#292974', // Border color on hover
                     },
@@ -42,6 +40,8 @@ function Login() {
             Login
             </Button>
       </div>
+      </div>
+      
     </div>
   )
 }
