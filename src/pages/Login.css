@@ -1,0 +1,27 @@
+.loginmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.loginlogo img {
+    width: 180px;
+}
+
+
+.loginlogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginlogo h1 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
