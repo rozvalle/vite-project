@@ -28,8 +28,9 @@ function Login() {
 					}}
 				>
 					<LoginIcon color="white" fontSize='medium' className='LoginIcon' />
-					&nbsp; Login
+					&nbsp; Sign In
 				</Button>
+				<a href="" className='newaccount'>Create new account</a>
       	</div>
       </div>    
     </div>

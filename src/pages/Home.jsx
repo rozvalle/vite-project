@@ -8,6 +8,7 @@ function Home() {
     <div class="main">
       <Sidebar />
       <div class="welcometitle">
+        <img src={ banner } alt="" className='banner' />
         <h1>Welcome To Saint Mary's University</h1>
       </div>
     </div>
