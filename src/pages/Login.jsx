@@ -1,6 +1,6 @@
 import React from 'react'
 import './Login.css'
-import smulogo from '/src/assets/smulight.png'
+import smulogo from '/src/assets/mainlight.png'
 import { TextField, Button } from '@mui/material'
 import LoginIcon from '@mui/icons-material/Login';
 

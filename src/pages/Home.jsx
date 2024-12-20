@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import './Home.css'
-import banner from '/src/assets/banner.jpg'
+import banner from '/src/assets/mainhlight.png'
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
       <Sidebar />
       <div class="welcometitle">
         <img src={ banner } alt="" className='banner' />
-        <h1>Welcome To Saint Mary's University</h1>
+      {/*  <h1>Welcome To Saint Mary's University</h1> */}
       </div>
     </div>
   )
