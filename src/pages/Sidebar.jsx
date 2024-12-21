@@ -40,6 +40,8 @@ function Sidebar() {
 			</div>
 			</Link>
 		</div>     
+		<div className='endbar'>
+			</div>
   </div>
   )
 }
