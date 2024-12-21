@@ -17,25 +17,25 @@ function Sidebar() {
 		<div class="items">
 			<Link to="/">
 			<div class="item">
-				<HomeIcon color="inherit" fontSize='medium' className='SidebarIcons' />
+				<HomeIcon color="inherit" fontSize='medium' className='SidebarIcons' sx={{ color:'inherit' }} />
 				<p>Home</p>    
 			</div>
 			</Link>
 			<Link to="/students">
 			<div class="item">
-				<StudentIcon color="inherit" fontSize='medium' className='SidebarIcons' />
+				<StudentIcon color="inherit" fontSize='medium' className='SidebarIcons' sx={{ color:'inherit' }}/>
 				<p>Students</p>    
 			</div>
 			</Link>
 			<Link to="/subjects">
 			<div class="item">
-				<SubjectIcon color="inherit" fontSize='medium' className='SidebarIcons' />
+				<SubjectIcon color="inherit" fontSize='medium' className='SidebarIcons' sx={{ color:'inherit' }}/>
 				<p>Subjects</p>    
 			</div>
 			</Link>
 			<Link to="/login">
 			<div class="item">
-				<LogoutIcon color="inherit" fontSize='medium' className='SidebarIcons' />
+				<LogoutIcon color="inherit" fontSize='medium' className='SidebarIcons' sx={{ color:'inherit' }} />
 				<p>Logout</p>    
 			</div>
 			</Link>

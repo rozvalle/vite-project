@@ -46,13 +46,19 @@
   }
   
   .item:hover {
-    background-color: #443f8e;
+    /*background-color: #443f8e;
+    color: #f5f5f5; */
+    background-color: #f5f5f5;
     border-radius: 5px;
-    color: white;
+    color: #292974;
   }
 
   .item:active {
     transform: scale(1);
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    color: #292974;
+
   }
   
   .SidebarIcons {
